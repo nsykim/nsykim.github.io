@@ -1,13 +1,13 @@
 import React from 'react';
-import MyButton from "./MyButton";
 import './App.css';
 
-function App() {
+import Gamebox from "./Gamebox";
+
+export default function App() {
   return (
     <div className="App">
-      <MyButton />
+      <Gamebox />
     </div>
   );
 }
 
-export default App;
